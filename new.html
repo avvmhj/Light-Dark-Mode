@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Light Mode / Dark Mode</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<link rel="stylesheet" href="new.css">
+</head>
+<body>
+
+ <nav>
+ 
+  <ul class="main">
+    <i class="log">Logo</i>
+    <li class="A"><a href="#">Home</a></li>
+    <li class="A"><a href="#">About</a></li>
+    <li class="A"><a href="#">Services</a></li>
+    <li class="A"><a href="#">Contact Us</a></li>
+    <li onclick=hideSidebar()><a href="#"></li>
+  </ul>
+ </nav>
+ <button class="theme-toggle" onclick="toggleTheme()">Dark Mode</button>
+
+<main>
+  <img src="https://i.pinimg.com/236x/a4/0b/ed/a40bed885bbe37403eaa053a91a01c53.jpg" class="slide">
+  <img src="https://i.pinimg.com/236x/bc/84/40/bc8440f654688c77bd1492ea95aaa453.jpg" class="slide">
+  <img src="https://i.pinimg.com/236x/9b/7f/3e/9b7f3e72eaf0980aca980a4d5a18254a.jpg" class="slide">
+  <img src="https://i.pinimg.com/236x/b0/dd/e4/b0dde4a6715655fb354611b18847a02f.jpg" class="slide">
+  <img src="https://i.pinimg.com/236x/f0/7a/09/f07a091e261154300b6534b73aa7c67c.jpg" class="slide">
+</main>
+<div class="bt">
+  <button onclick="goPrev()">Prev</button>
+  <button onclick="goNext()">Next</button>
+</div>
+
+<div class="card-container">
+  <div class="card">
+      <img src="https://i.pinimg.com/236x/a6/f3/38/a6f33880b438ea162a95e6be80890bbd.jpg" alt="Card 1">
+      <h3>Card 1</h3>
+
+  </div>
+  <div class="card">
+      <img src="https://i.pinimg.com/236x/81/8c/1f/818c1f08ad7798cda0368a03c5d8dcfe.jpg" alt="Card 2">
+      <h3>Card 2</h3>
+   
+  </div>
+  <div class="card">
+      <img src="https://i.pinimg.com/236x/20/00/00/20000031a859136b44c09686e1b38507.jpg" alt="Card 3">
+      <h3>Card 3</h3>
+  </div>
+</div>
+<footer>
+  &copy; 2024 Your Company. All rights reserved.
+</footer>
+
+</body>
+<script src="new.js"></script>
+</html> 
